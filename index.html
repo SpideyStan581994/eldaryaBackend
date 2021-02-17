@@ -16,7 +16,10 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				
+				<!-- Sir. Steven Section  -->
+
+
+			
 				<section data-background-image = "img/eldarya bg.jpg" data-auto-animate>
 					<img width= "800px" src = "img/eldarya-logo.png">
 				</section>
@@ -28,8 +31,8 @@
 				<section data-background-video= "img/videos/eldarya-loop.mp4" data-background-video-loop>
 					<u><h1 style="text-shadow: 2px 2px black;"> Backend Research</h1></u>
 				</section>
-				
-				<section>
+        
+        <section>
 					<!-- Information about Eldarya-->
 					<h3> <u> Eldarya Game Launched</u></h3>
 					<p style="color:aqua;"> August 1, 2015 </p>
@@ -79,12 +82,219 @@
 				</section>
 
 
+				<!-- end of sir. Steven section -->
 
+
+
+				<!-- =========Sir. Vencent Section============ -->
+				<section data-background-video= "img/videos/eldarya-loop.mp4" data-background-video-loop>
+					<u><h3 style="text-shadow: 2px 2px black;"> What is our client going to face?</h3></u><br>
+				</section>
+				<section data-background-video= "img/videos/eldarya-loop.mp4" data-background-video-loop>
+					<u><h3 style="text-shadow: 2px 2px black;"> What is our client going to face?</h3></u><br>
+					 <h6 style="text-shadow: 2px 2px black;">* Registration</h6>
+				</section>
+				<section data-background-video= "img/videos/eldarya-loop.mp4" data-background-video-loop>
+					<u><h3 style="text-shadow: 2px 2px black;"> What is our client going to face?</h3></u><br>
+					 <h6 style="text-shadow: 2px 2px black;">* Registration</h6>
+					 <h6 style="text-shadow: 2px 2px black;"> * Authentication</h6>
+				</section>
+				<section data-background-video= "img/videos/eldarya-loop.mp4" data-background-video-loop>
+					<u><h3 style="text-shadow: 2px 2px black;"> What is our client going to face?</h3></u><br>
+					 <h6 style="text-shadow: 2px 2px black;">* Registration</h6>
+					 <h6 style="text-shadow: 2px 2px black;"> * Authentication</h6>
+					 <h6 style="text-shadow: 2px 2px black;"> * Getting basic user info</h6>	
+				</section>
+				<section data-background-video= "img/videos/eldarya-loop.mp4" data-background-video-loop>
+					<u><h3 style="text-shadow: 2px 2px black;"> What is our client going to face?</h3></u><br>
+					 <h6 style="text-shadow: 2px 2px black;">* Registration</h6>
+					 <h6 style="text-shadow: 2px 2px black;"> * Authentication</h6>
+					 <h6 style="text-shadow: 2px 2px black;"> * Getting basic user info</h6>	
+					 <h6 style="text-shadow: 2px 2px black;"> * Logout (Token Invalidation</h6>
+				</section>
+				<section data-background-video= "img/videos/eldarya-loop.mp4" data-background-video-loop>
+					<u><h1 style="text-shadow: 2px 2px black;"> REGISTRATION</h1></u>	
+					<img width = "800px" style="margin-bottom: 250px;"  src = "img/pic1.png">
+				</section>
+				<section data-background-video= "img/videos/eldarya-loop.mp4" data-background-video-loop>
+					<u><h1 style="text-shadow: 2px 2px black;"> Registration	</h1></u>	<br>
+					<p style="text-shadow: 2px 2px black;">A user can register & login via our own sign-up/login form or via 3rd parties like Facebook.</p><br>
+				</section>
+				<section data-background-video= "img/videos/eldarya-loop.mp4" data-background-video-loop>
+					<u><p style="text-shadow: 2px 2px black;">After we‘ve decided how our client-facing API will look like, let’s take a deeper look at the expected flows. </p></u>	
+					<img width = "800px" style="margin-bottom: 250px;"  src = "img/pic2.png">
+				</section>
+				<section data-background-video= "img/videos/eldarya-loop.mp4" data-background-video-loop>
+					<u><h4 style="text-shadow: 2px 2px black;">both registration_api and login_api able to support different kinds of calls (3rd party/inhouse). </h4></u>	
+				
+				</section>
+				<section data-background-video= "img/videos/eldarya-loop.mp4" data-background-video-loop>
+						
+					<h6 style="text-shadow: 2px 2px black;"> An in-house request would look familiar</h6>
+				
+				</section>
+				<section data-background-video= "img/videos/eldarya-loop.mp4" data-background-video-loop>
+					
+					<h6 style="text-shadow: 2px 2px black;"> An in-house request would look familiar</h6>
+					<img width = "800px" style="margin-bottom: 250px;"  src = "img/pic3.png">
+				</section>
+				<section data-background-video= "img/videos/eldarya-loop.mp4" data-background-video-loop>
+						
+					<h6 style="text-shadow: 2px 2px black;"> 3rd party registration call</h6>
+				
+				</section>
+				<section data-background-video= "img/videos/eldarya-loop.mp4" data-background-video-loop>
+					
+					<h6 style="text-shadow: 2px 2px black;"> 3rd party registration call</h6>
+					<img width = "800px" style="margin-bottom: 250px;"  src = "img/pic4.png">
+				</section>
+				<section data-background-video= "img/videos/eldarya-loop.mp4" data-background-video-loop>
+						
+					<h6 style="text-shadow: 2px 2px black;">After receiving this request, we will use the token to call the 3rd party from our server, validate the token, and get the user’s info.</h6>
+				
+				</section>
+				<section data-background-video= "img/videos/eldarya-loop.mp4" data-background-video-loop>
+						
+					<h6 style="text-shadow: 2px 2px black;">After receiving this request, we will use the token to call the 3rd party from our server, validate the token, and get the user’s info.</h6>
+					<h6 style="text-shadow: 2px 2px black;">Using that info, we would then register the user</h6>
+				</section>
+				<section data-background-video= "img/videos/eldarya-loop.mp4" data-background-video-loop>
+						
+					<h6 style="text-shadow: 2px 2px black;">After receiving this request, we will use the token to call the 3rd party from our server, validate the token, and get the user’s info.</h6>
+					<h6 style="text-shadow: 2px 2px black;">Using that info, we would then register the user</h6>
+					<h6 style="text-shadow: 2px 2px black;">So, what is the common functionality between the two types (in-house, 3rd party) of registration?</h6>
+				</section>
+				<section data-background-video= "img/videos/eldarya-loop.mp4" data-background-video-loop>
+					<u><h1 style="text-shadow: 2px 2px black;"> What are the differences?</h1></u>	
+		
+				</section>
+				<section data-background-video= "img/videos/eldarya-loop.mp4" data-background-video-loop>
+					
+					<u><h2 style="text-shadow: 2px 2px black;">3rd party registration</h2></u>	
+		
+				</section>
+				<section data-background-video= "img/videos/eldarya-loop.mp4" data-background-video-loop>
+					
+					<u><h2 style="text-shadow: 2px 2px black;">3rd party registration</h2></u>	<br>
+					<h6 style="text-shadow: 2px 2px black;">1  User’s token is validated prior to saving the user to our DB</h6>
+		
+				</section>
+				<section data-background-video= "img/videos/eldarya-loop.mp4" data-background-video-loop>
+					
+					<u><h2 style="text-shadow: 2px 2px black;">3rd party registration</h2></u>	<br>
+					<h6 style="text-shadow: 2px 2px black;"> 1  User’s token is validated prior to saving the user to our DB</h6><br>
+					<h6 style="text-shadow: 2px 2px black;">2  User’s info is provided to us by the 3rd party</h6>
+		
+				</section>
+				<section data-background-video= "img/videos/eldarya-loop.mp4" data-background-video-loop>
+					<u><h2 style="text-shadow: 2px 2px black;">In-house registration</h2></u>	
+		
+				</section>
+				<section data-background-video= "img/videos/eldarya-loop.mp4" data-background-video-loop>
+				
+					<u><h2 style="text-shadow: 2px 2px black;">In-house registration</h2></u>	<br>
+				<h6 style="text-shadow: 2px 2px black;">1 No token process is happening</h6>
+	
+				</section>
+				<section data-background-video= "img/videos/eldarya-loop.mp4" data-background-video-loop>
+				
+					<u><h2 style="text-shadow: 2px 2px black;">In-house registration</h2></u>	<br>
+					<h6 style="text-shadow: 2px 2px black;"> 1  No token process is happening</h6><br>
+					<h6 style="text-shadow: 2px 2px black;">2  User’s info is provided by the user</h6>
+	
+				</section>
+				<section data-background-video= "img/videos/eldarya-loop.mp4" data-background-video-loop>
+						
+					<h6 style="text-shadow: 2px 2px black;">Eldarya platform should support both registration options, and we should be able to expose or hide the APIs as we please manually or through API Gateways.</h6>
+				
+				</section>
+				<section data-background-video= "img/videos/eldarya-loop.mp4" data-background-video-loop>
+					
+					<h1 style="text-shadow: 2px 2px black;">So, keep that in mind →.</h1>
 			
+				</section>
+
+				<!-- =========end of Sir. Vencent Section============ -->
+
+				<!-- Arvin Section -->
+				<section>
+					<section data-auto-animate data-background-image = "img/eldarya bg.jpg">
+						<h4 data-id="animate9" style="background:  rgba(56, 44, 226, 0.726);">Other Findings</h4>
+					</section>
+					<section data-auto-animate data-background-image = "img/eldarya bg.jpg">
+						<h4 data-id="animate9">Other Findings</h4>
+						<hr style="border: 3px solid rgba(56, 44, 226, 0.849);">
+						<div style="background:  rgba(56, 44, 226, 0.726); width: 960px">
+							<ul style="border: 1px solid transparent; column-count: 2; width: 800px">
+								<li>Objectives</li>
+								<li>Action history</li>
+								<li>Collected items</li>
+								<li>Corners of world</li>
+								<li>Cities</li>
+								<li>Inventories</li>
+								<li>Treasures</li>
+								<li>Creatures</li>
+								<li>Egg hatching</li>
+								<li>Time for hatching egg</li>
+								<li>Feed, food quantity</li>
+								<li>Level of affection and luck</li>
+								<li>Exploration results</li>
+								<li>Progress of game to know which scene will be shown on places to be</li>
+							</ul>
+						</div>
+					</section>
+
+				</section>
+				<!--End of Arvin Section -->
+
+				<!-- Sir. Michael Section -->
+
+				<section>
+					<section data-background-video= "img/videos/eldarya-loop.mp4" data-background-video-loop>
+						<u><h1 style="text-shadow: 2px 2px black;"> Technologies used</h1></u>
+					</section>
+	
+					<section data-background-image= "img/crystalroom.jpg" data-auto-animate="">
+						<img  src="img/tech1.jpg" width="450" height="500">
+					</section>
+	
+					<section data-background-image= "img/crystalroom.jpg" data-auto-animate="">
+						<img  src="img/tech2.jpg" width="450" height="500">
+					</section>
+	
+					<section data-background-image= "img/crystalroom.jpg" data-auto-animate="">
+						<img  src="img/tech3.jpg" width="450" height="500">
+					</section>
+	
+					<section data-background-image= "img/crystalroom.jpg" data-auto-animate="">
+						<img  src="img/tech4.jpg" width="450" height="500">
+					</section>
+	
+					<section data-background-image= "img/crystalroom.jpg" data-auto-animate="">
+						<img  src="img/tech5.jpg" width="450" height="500">
+					</section>
+
+
+
+
+
+				</section>
+
+				<!-- this will be the last section for the game demo of an inventory -->
+				<section data-background-video= "img/videos/eldarya-loop.mp4" data-background-video-loop>
+					<u><h1 style="text-shadow: 2px 2px black;"> GAME DEMO</h1></u>
+				</section>
+
+				<!-- ======end of Sir. Michael section========= -->
+				
+				
+
+		
 
 
 			</div>
 		</div>
+		
 
 		<script src="dist/reveal.js"></script>
 		<script src="plugin/notes/notes.js"></script>
@@ -103,3 +313,7 @@
 		</script>
 	</body>
 </html>
+{
+    "type": "facebook",
+    "token": "$TOKEN$"
+}
